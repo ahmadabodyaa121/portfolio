@@ -1,0 +1,42 @@
+/* /responsive */
+@media screen and (max-width: 940px) {
+    .hero-text {
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 20px;    
+    }
+    .hero-text .hello {
+        font-size: 14px;
+    }
+    .hero-text .title {
+        font-size: 30px;
+    }
+    .hero-text .hero-desc {
+        font-size: 14px;
+    }
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-btns .hero-contact-btn {
+        margin-bottom: 10px;
+    }
+    .hero-btns .download-btn {
+        margin-bottom: 10px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .about-text .about-info {
+        margin-bottom: 20px;
+    }
+    .about-text .about-info .info-title {
+        font-size: 14px;
+    }
+   
+   
+
+
+}
+
