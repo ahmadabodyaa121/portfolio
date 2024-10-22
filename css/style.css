@@ -528,11 +528,23 @@ p {
 .contact .contact-form{
     width: 50%;
 }
+.contact .contact-form .form-group{
+    width: 100%;
+}
+.contact .contact-form .form-group input{
+    width: 40%;
+    padding: 3px;
+    border-radius: 1rem;
+    border: 2px solid var(--p-color);
+    background-color: transparent;
+    color: var(--white-color);
+}
 .contact .contact-form .form-group-colm{
     display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+justify-content: space-between;
+gap: 1rem;
+margin-bottom: 1rem;
+
 }
 .contact .contact-form .form-group textarea{
     width: 100%;
@@ -540,7 +552,12 @@ p {
     border-radius: 1rem;
     border: 2px solid var(--p-color);
     resize: none;
+    background-color: transparent;
+    color: var(--white-color);
 }
+
+
+
 .contact .contact-form .btn{
     display: inline-block;
     background-color: var(--main-color);
@@ -551,6 +568,7 @@ p {
     border-radius: 50%;
     rotate: -45deg;
 }
+
 body {
     background-color: #131313;
     color: #fff;
